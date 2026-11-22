@@ -1,0 +1,33 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.cache/
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# Secrets (none are used by this project)
+.env
+*.key
+
+# Generated outputs: they can contain patient-level data, so regenerate locally
+outputs/*
+!outputs/.gitkeep
+reports/*
+!reports/.gitkeep
+
+# Any other CSVs you may add (the official sample dataset is allowed)
+*.csv
+!dataset/healthcare_patients_sample.csv
